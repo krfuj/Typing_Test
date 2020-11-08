@@ -1,11 +1,11 @@
-#TYPING SPEED TEST
+### **TYPING SPEED TEST**
 
-This this is one of my small practice mini projects with javascript  where i time a persons typing speed. 
+This is one of my small practice mini projects with javascript were i time a person's typing speed. 
 
-I have added color change effect when one selects the text area to type the sentence.
+I has color change effects on the border to grey dormant, blue things are great, orange well you aren't doing fine.
 
-##Code Preview
-'''
+### **Code Preview**
+```
 const testWrapper = document.querySelector(".test-wrapper");
 const testArea = document.querySelector("#test-area");
 const originText = document.querySelector("#origin-text p").innerHTML;
@@ -29,10 +29,10 @@ function runTimer(){
     let currentTime = leadingZero(timer[0]) + ":" + leadingZero(timer[1]) + ":" + leadingZero(timer[2]);
     theTimer.innerHTML = currentTime;
     timer[3]++;
-'''
+```
 
 
-##**Screenshots**
+## **Screenshots**
 
 1. ![Type Test](img/typingspeed.png)
 
